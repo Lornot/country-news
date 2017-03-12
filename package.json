@@ -1,0 +1,29 @@
+{
+  "name": "country-news",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "history": "^1.13.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.0",
+    "babel-preset-react": "^6.16.0",
+    "watchify": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lornot/country-news.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lornot/country-news/issues"
+  },
+  "homepage": "https://github.com/Lornot/country-news#readme"
+}
