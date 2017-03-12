@@ -1,0 +1,65 @@
+header {
+    background: #3e51b5;
+    color: #fff;
+    height: 400px;
+}
+
+.socialIcons {
+    float: right;
+}
+
+.socialIcons li {
+    list-style-type:none;
+    font-size: 20px;
+    margin:10px;
+    color: #fff;
+}
+
+.socialIcons li i {
+    color: #fff;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li a{
+    color: #fff;
+}
+
+#main {
+    background: #e9e9ed;
+}
+
+.submain {
+    margin-top: -100px;
+}
+
+.article {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 110px;
+    margin-top: -75px;
+    height: 450px;
+}
+
+.article p{
+    color: #797979;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.article img {
+    float:left;
+}
+
+.photoesBlock {
+    background: #fff;
+    padding: 20px;
+    margin-top: -125px;
+}
+
+.photoesBlock img {
+    width: 100%;
+    padding: 10px 0;
+}
